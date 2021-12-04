@@ -1,0 +1,409 @@
+body {
+ -webkit-print-color-adjust:exact;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.grad {
+    height: 120px;
+    width: 97%;
+    border-bottom: 0px solid #bbb;
+    border-radius: 4px;
+    margin: 1px auto;
+    background-color: #f1dec6;
+}
+.stylec{
+  background-color: #e99b3b;
+  border: 1px solid #eee;
+  color: #000;
+}
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+    top: 0;
+    left: 42px;
+    height: 25px;
+    border: 1px solid #e6e979;
+    width: 25px;
+    background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: #3b7b3e;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}/*end chrck box*/
+.title-1{
+  margin-top: 20px;
+  font-weight: bold;
+  color: #69727a;
+}
+.grad .brand{
+  float: right;
+  font-size: 36px;
+  margin: 20px 5px;
+  font-weight: bold;
+  color:#69727a;
+  font-family: "Cairo", sans-serif;
+/*  text-shadow: 0px 2px 1px #323232;*/
+}
+.grad .img{
+ width: 16%;
+    float: right;
+    margin: -12px 5px 3px;
+}
+.navbar-nav .nav-item a:hover {
+    background-color: #e99b3b;
+    color: green;
+   /* text-shadow: 1px 2px 3px #151513;*/
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 22px;
+    margin-right: 8px;
+    /*font-family: 'Motken K Homa';*/
+        font-family: "Cairo", sans-serif;
+}
+.navbar-nav .nav-item a {
+    color: #323232;
+    font-family: "Cairo", sans-serif;
+    text-align: right;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 58px;
+    left: -53px;
+    background-color: #f7ab4d;
+}
+.formc label{
+  float: right;
+  font-size: 22px;  
+}
+/* start login page*/
+.login {
+    width: 35%;
+    margin: 40px auto;
+    font-family: 'Sakkal Majalla';
+    padding: 10px;
+}
+.login input {
+    margin: 7px;
+    font-size: 22px;
+}
+/* end page login */
+/* start dashbord*/
+.sub33 {
+    width: 200px !important;
+    margin: 10px;
+    border: 1px solid #000;
+    font-weight: bold;
+    background-color: #69727a;
+    color: #000;
+    box-shadow: 2px 3px 10px #000;
+    font-family: "Cairo", sans-serif;
+}
+.ksetting .sub33 i{
+font-size: 88px;
+}
+/*end dashbord*/
+/* start controltype page*/
+.user-table{
+  font-family: "Cairo", sans-serif;
+}
+.user-table .u-table{
+  background-color:#e99b3b;
+  font-weight: bold;
+   
+}
+.info-spear{
+  margin-top: 30px;
+}
+.info-spear span{
+  width: 160px;
+  font-size: 20px;
+
+}
+/* end controltype page*/
+/*start page of selling*/
+.crad-buy{
+
+}
+.foot
+{
+  width: 100%;
+  font-size: 20px; 
+  margin-top: 380px;
+  color:#000;
+  background-color: #e99b3b;
+  text-align: center !important;
+  padding: 10px;
+}
+/*end page  of selling*/
+@media screen and (max-width: 400px) {
+  .login {
+    width: 90%;
+    margin: 40px auto;
+    font-family: 'Sakkal Majalla';
+    padding: 10px;
+}
+.grad .img{
+    margin: -6px 0px -23px;
+    width: 24%;
+
+}
+.foot
+{
+
+font-size: 14px;
+  }
+.table-pay{
+	width: 93%;
+}
+  .grad .brand{
+    font-size: 27px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 18px;
+    border:1px solid #000;
+    margin-right: -40px;
+}
+.navbar-nav .nav-item a{
+font-size: 18px;
+text-align: center;
+}
+/* DASHBORD PART*/
+.sub33 {
+width: 100% !important;
+}
+.sub33 .icon-dash{
+  font-size: 300px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu
+{
+  position: relative;
+    top: 0px;
+    right: -18px;
+    background-color: #beebb3;
+}
+.user-table{
+  width: 100% !important;
+}
+td .btn-info,td .btn-success,td .btn-primary{
+font-size: 11px;
+}
+.navbar-nav .nav-item a {
+    font-size: 18px;
+    text-align: right;
+}
+.user-table  .u-table{
+  font-size:13px;
+}
+/* END DASHBORD*/
+.info-spear span{
+ float: right;
+ margin-right: 50px;
+ width: 76%;
+ padding: 10px;
+}
+
+  .title-1{
+    font-size: 21px;
+}
+  .from1 label{
+    font-size: 18px !important;
+  }
+  .from1 .update{
+    font-size: 17px;
+  }
+  .stylec{
+
+  }
+  .table-pay{
+	width: 100% !important;
+	font-size: 11px
+}
+  .user-table{
+    width: 100% ;
+    font-size: 14px;
+  }
+  .update1{
+   width: 133% 
+  }
+  .crad-buy{
+  display: block;
+}
+.title-mar-top{
+	margin-top: 110px !important;
+  }
+  .from1{
+  	width: 100%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .login {
+    width: 90%;
+    margin: 40px auto;
+    font-family: 'Sakkal Majalla';
+    padding: 10px;
+}
+.grad .img{
+    margin: -6px 0px -23px;
+    width: 24%;
+
+}
+.table-pay{
+	width: 93% !;
+}
+.title-mar-top{
+	margin-top: 110px;
+}
+  .grad .brand{
+    font-size: 27px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 18px;
+    border:1px solid #000;
+    margin-right: -40px;
+}
+.navbar-nav .nav-item a{
+font-size: 18px;
+text-align: center;
+}
+/* DASHBORD PART*/
+.sub33 {
+width: 95% !important;
+}
+.sub33 .icon-dash{
+  font-size: 300px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu
+{
+  position: relative;
+    top: 0px;
+    right: -18px;
+    background-color: #beebb3;
+}
+
+.user-table{
+  width: 100% !important;
+}
+.user-table  .u-table{
+  font-size:12px !important;
+}
+td .btn-info,td .btn-success,td .btn-primary{
+font-size: 14px;
+}
+.navbar-nav .nav-item a {
+    font-size: 18px;
+    text-align: right;
+}
+.user-table  .u-table{
+  font-size:13px;
+}
+.table-pay{
+	width: 100% !important;
+	font-size: 13px
+}
+/* END DASHBORD*/
+.info-spear span{
+ float: right;
+ margin-right: 50px;
+ width: 76%;
+ padding: 10px;
+}
+
+  .title-1{
+    font-size: 26px;
+
+}
+  .from1 label{
+    font-size: 18px !important;
+  }
+  .from1 .update{
+    font-size: 17px;
+  }
+  .stylec{
+
+  }
+  .user-table{
+    width: 100% ;
+    font-size: 14px;
+  }
+  .update1{
+   width: 98% 
+  }
+  .crad-buy{
+     display: block;
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 19px;
+}
+.presnt11{
+	font-size: 21px !important;
+  }
+  .from1{
+  	width: 100%;
+  }
+}
+@media print{
+
+    .user-table .u-table{
+    background-image: url('include/image/b.gif');
+
+  }
+  #plugin{
+    background-image: url('include/image/b.gif');
+  }
+  .title-1{
+    text-shadow: 1px 2px 3px #000;
+  }
+  .hide{
+    display: none;
+  }
+}
