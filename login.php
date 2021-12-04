@@ -1,8 +1,7 @@
 <?php 
 ob_start();
-include "include/template/navbar2.php";
+include "include/template/navbar.php";
 include "include/template/header.php"; 
-
 include "include/template/conn.php";
 if(isset($_SESSION['userID'])){
 	$stmt=$con->prepare("SELECT * FROM users where user_id=? ");
@@ -39,7 +38,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 		<h3 style="text-align: center;color:#69727a; font-family: 'Almarai', sans-serif;">صفحة الدخول</h3>
 		<input type="text" class="form-control" autofocus="on" autocomplete="off" name="user" placeholder="ادخل رقم الهاتف" >
 		<input type="password" name="pass" class="form-control" placeholder="أدخل كلمة المرور">
-		<input type="submit" class="btn btn-success btn-block btn-co" value=" تسجيل دخول ">
+		<input style="background-color: #e99b3b" type="submit" class="btn btn-success btn-block btn-co" value=" تسجيل دخول ">
 	</form> 	
 
 <?php 

@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="layout/css/bootstrap.min.css.map">
 		<?php 
 		foreach (glob('layout/css/*.css') as $cssfile) { ?>
 			<link rel="stylesheet" type="text/css" href="<?php echo $cssfile ?> ">
@@ -25,8 +24,8 @@
 		<div class="row">
 			<div class="grad">
 				<div class="hi1 col-md-8">
-					<img src="include/image/logo.gif" class="img">
-					<span class="brand title-1"><span style="color:#e99b3b"><u> توفيرات </u></span>  للترحيل  </span>
+					<img src="include/image/header.gif" class="img">
+					<!-- <span class="brand title-1"><span style="color:#e99b3b"><u> توفيرات </u></span>  للترحيل  </span> -->
 				</div>
 				<!-- <div class="hi2 col-md-4">
 					<a class="login btn btn-success" href="login.php">  تسجيل الدخول </a>

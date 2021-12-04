@@ -32,8 +32,8 @@ session_start();
              العملاء
             </a>
             <div class="dropdown-menu pd" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item " href="#"><i class="fa fa-lock-open"></i> تسجيل دخول </a>
-              <a class="dropdown-item" href="logout.php"><!-- <i class='fas fa-sign-out-alt'></i> --> <i class="fa fa-plus"></i> إنشاء حساب  </a>
+              <a class="dropdown-item " href="login.php"><i class="fa fa-lock-open"></i> تسجيل دخول </a>
+              <a class="dropdown-item" href="account.php"><!-- <i class='fas fa-sign-out-alt'></i> --> <i class="fa fa-plus"></i> إنشاء حساب  </a>
           </li>
         </ul>
 
