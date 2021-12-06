@@ -1,5 +1,5 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=projecta"; 
+$dsn = "mysql:host=localhost;dbname=tawferat"; 
 $user = "root"; 
 $pass = ""; 
 $option = array( PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8',);

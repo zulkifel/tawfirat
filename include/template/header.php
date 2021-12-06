@@ -24,7 +24,7 @@
 		<div class="row">
 			<div class="grad">
 				<div class="hi1 col-md-8">
-					<img src="include/image/header.gif" class="img">
+					<img src="include/image/header1.gif" class="img">
 					<!-- <span class="brand title-1"><span style="color:#e99b3b"><u> توفيرات </u></span>  للترحيل  </span> -->
 				</div>
 				<!-- <div class="hi2 col-md-4">
