@@ -45,7 +45,7 @@ mail("abdulrahmmanspear@gmail.com","Answer","Hope You Vote My Answer Up","From: 
     echo " تم ارسال الرسالة ";
 }
 ?>
-	<form class="login" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" >
+	<form style="font-family: 'Cairo', sans-serif;" class="login" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" >
 		<h3 style="text-align: center;color:#69727a; font-family: 'Almarai', sans-serif;">صفحة الدخول</h3>
 		<input type="text" class="form-control" autofocus="on" autocomplete="off" name="user" placeholder="ادخل رقم الهاتف" >
 		<input type="password" name="pass" class="form-control" placeholder="أدخل كلمة المرور">
